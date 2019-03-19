@@ -2,7 +2,6 @@
 title: "Política de Privacidad v.1"
 date: 2019-03-19T11:18:49-06:00
 draft: false
-author: "ClauSita"
 categories: [politicaprivacidad]
 ---
 
