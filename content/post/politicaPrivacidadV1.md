@@ -3,6 +3,7 @@ title: "Política de Privacidad v.1"
 date: 2019-03-19T11:18:49-06:00
 draft: false
 author: "ClauSita"
+categories: [politicaprivacidad]
 ---
 
 En Juegos Terva, sabemos que su privacidad y la de su familia es muy importante, le pedimos que lea atentamente nuestra política de privacidad.
@@ -34,8 +35,7 @@ Puede revisar la información porporcionada por Google Play Juegos descargando l
 Todas nuestras aplicaciones cuentan con una sección para Padres o Tutores, que permite la restricción para compartir información y contenido con otros a través de aplicaciones de terceros.
 
 Cambios
-Cuando nuestras políticas sufran cambios, se lo notificaremos a través de nuestras aplicaciones, y siempre podrá acceder a nuestra políticas por medio de nuestro
-sitio web
-.
+Cuando nuestras políticas sufran cambios, se lo notificaremos a través de nuestras aplicaciones, y siempre podrá acceder a nuestra políticas por medio de nuestro sitio web.
+
 Consentimiento
 Al utilizar nuestras aplicaciones, usted brinda su consentimiento a nuestra política de privacidad.
