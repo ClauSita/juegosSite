@@ -1,3 +1,51 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl         = ""
+theme           = "casper-two"
+languageCode    = "es-ES"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Juegos Terva"
+  subtitle    = "Sitio Oficial de Juegos Terva"
+
+  cover       = "img/blog-cover.jpg"
+  description = "Aquí encontrará toda la información necesaria sobre nuestras aplicaciones."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = ""
+  fbName = "juegosterva"
+  githubName = ""
+
+  logo = ""
+  orgName = "Juegos Terva"
+  orgWebsite = "https://juegosterva.com"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "ClauSita"
+  authorAvatar = "usuario.png"
+  authorLocation = "Puebla, Mx"
+  authorWebsite = ""
+  authorDescription = "Fundadora."
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Principal"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Política de Privacidad"
+  url = "/categories/politicaprivacidad/"
+  weight = 99
+
