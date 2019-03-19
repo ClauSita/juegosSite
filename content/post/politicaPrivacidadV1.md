@@ -1,13 +1,14 @@
 ---
+author: "ClauSita"
 title: "Política de Privacidad v.1"
 date: 2019-03-19T11:18:49-06:00
 draft: false
-categories: [politicaprivacidad]
+categories: ["politicaprivacidad"]
 ---
 
 En Juegos Terva, sabemos que su privacidad y la de su familia es muy importante, le pedimos que lea atentamente nuestra política de privacidad.
 
-La información que recopilamos.
+<h1>La información que recopilamos.</h1>
 Sobre el usuario
 Cuando descarga nuestras aplicaciones a través de Google Play Store, nosotros recopilamos la información que usted proporciona a Google Play Juegos(1) como ID del Jugador, imagen avatar, logros obtenidos, y misiones completadas.
 Sus compras
