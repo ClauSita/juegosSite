@@ -1,51 +1,72 @@
-baseurl         = ""
-theme           = "casper-two"
-languageCode    = "es-ES"
-disqusShortname = ""
-paginate        = 6
-#SectionPagesMenu = "main"
+## Basic Configuration
+baseurl = "https://example.com/"
+languageCode = "en"
 
+title = "Title"
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+# summarylength = 30
+
+#paginate = 5
+
+## Site Settings
 [params]
-  title       = "Juegos Terva"
-  subtitle    = "Sitio Oficial de Juegos Terva"
+    author = "Author"
+    title = "Title"
+    # description = "..."
+    authorimage = "/img/hugo.png"
+    dateformat = "Jan 2, 2006"
 
-  cover       = "img/blog-cover.jpg"
-  description = "Aquí encontrará toda la información necesaria sobre nuestras aplicaciones."
-  metaDescription = ""
-  googleAnalytics = ""
-  customCSS = []
-  RSSLink = ""
+    # sidebar, copyright & license
+    copyright = "htr3n"
+    license = "CC BY-SA 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = true
 
-  twitterName = ""
-  fbName = "juegosterva"
-  githubName = ""
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github"
+    
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
 
-  logo = ""
-  orgName = "Juegos Terva"
-  orgWebsite = "https://juegosterva.com"
-  orgDescription = "Here is a description placeholder for your org"
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
 
-  author = "ClauSita"
-  authorAvatar = "usuario.png"
-  authorLocation = "Puebla, Mx"
-  authorWebsite = ""
-  authorDescription = "Fundadora."
+## Social Accounts
+[params.social]
+    github = "<username>"
+    instagram = "<username>"
+    xing = "<username>"
+    linkedin = "<username>"
+    twitter = "<username>"
+    facebook = "<username>"
+    stackoverflow = "<username>"
+    telegram = "<username>"
+    email = "your-email@example.com"
+    # gravatar = "your-email@example.com"
 
-  pageNotFoundTitle = "404 - Page not found"
-
-  #casper or caspertwo
-  singleViewStyle = "casper"
-
-[permalinks]
-  post = "/:slug/"
-
+## Main Menu
 [[menu.main]]
-  name = "Principal"
-  url = "/"
-  weight = 200
-
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
 [[menu.main]]
-  name = "Política de Privacidad"
-  url = "/categories/politicaprivacidad/"
-  weight = 99
-
+    name = "Portfolio"
+    identifier = "portfolio"
+    weight = 200
+    url = "/portfolio/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
